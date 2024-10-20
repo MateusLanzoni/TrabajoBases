@@ -1,0 +1,67 @@
+[
+    {
+        "_id": "6510b8e999c2f123456789ab",
+        "name": "LeBron James",
+        "league": "NBA",
+        "wins": 15
+    },
+    {
+        "_id": "6510b8e999c2f123456789ac",
+        "name": "Kevin Durant",
+        "league": "NBA",
+        "wins": 12
+    },
+    {
+        "_id": "6510b8e999c2f123456789ad",
+        "name": "Sword",
+        "type": "Ancient",
+        "used_count": 5
+    },
+    {
+        "_id": "6510b8e999c2f123456789ae",
+        "name": "Shield",
+        "type": "Medieval",
+        "used_count": 3
+    },
+    {
+        "_id": "6510b8e999c2f123456789af",
+        "name": "Steel Cage Warehouse",
+        "fights_count": 8
+    },
+    {
+        "_id": "6510b8e999c2f123456789b0",
+        "name": "Skyline Roof Arena",
+        "fights_count": 5
+    },
+    {
+        "_id": "6510b8e999c2f123456789b1",
+        "environment": "6510b8e999c2f123456789af",
+        "date": "2023-10-15T00:00:00Z",
+        "ai_robot_used": true,
+        "participants": [
+            {
+                "fighter_id": "6510b8e999c2f123456789ab",
+                "weapon_id": "6510b8e999c2f123456789ad",
+                "winner": true
+            },
+            {
+                "fighter_id": "6510b8e999c2f123456789ac",
+                "weapon_id": "6510b8e999c2f123456789ae",
+                "winner": false
+            }
+        ]
+    },
+    {
+        "_id": "6510b8e999c2f123456789b2",
+        "environment": "6510b8e999c2f123456789b0",
+        "date": "2023-09-25T00:00:00Z",
+        "ai_robot_used": false,
+        "participants": [
+            {
+                "fighter_id": "6510b8e999c2f123456789ab",
+                "weapon_id": "6510b8e999c2f123456789ae",
+                "winner": true
+            }
+        ]
+    }
+]
